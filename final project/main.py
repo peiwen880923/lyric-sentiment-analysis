@@ -64,7 +64,7 @@ def sentiment_analysis(lyrics):
     return avg
 
 # LINE Notify 權杖
-token = 'nVrffNorEJJVJgkXHiP8UGQn3YRf1BFTLlyEhjrS6l6'
+token = 'XXXXXXXX'
 
 content,lyrics=web_crawler()
 avg=sentiment_analysis(lyrics)
